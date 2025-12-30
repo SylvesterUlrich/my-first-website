@@ -1,1 +1,55 @@
-<img width="1853" height="858" alt="image" src="https://github.com/user-attachments/assets/7e09c620-4c5a-477c-a6db-830ab6e98681" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional UI</title>
+    <style>
+        /* This is the CSS section */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Welcome to My UI</h1>
+        <p>I built this using HTML, CSS, and hosted it on GitHub!</p>
+        <button onclick="celebrate()">Click for Magic</button>
+    </div>
+
+    <script>
+        function celebrate() {
+            alert("Congratulations! You've just interacted with your first web app.");
+        }
+    </script>
+
+</body>
+</html>
